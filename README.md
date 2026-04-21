@@ -9,9 +9,10 @@ conversation context across multiple turns, and uses a datetime tool for
 live delivery date calculations.
 
 ## Files
-- `agent.ipynb` — main notebook with all agent code, tests, and evaluation
-- `capstone_streamlit.py` — Streamlit chat UI
-- `requirements.txt` — all dependencies
+- `agent.ipynb` - main notebook with all agent code, tests, and evaluation
+- `capstone_streamlit.py` - Streamlit chat UI
+- `requirements.txt` - all dependencies
+- `day13_capstone.ipynb` - template (completed)
 
 ## Setup Instructions
 
@@ -20,20 +21,19 @@ git clone https://github.com/Baidehi25/E-Commerce_FAQ_Bot.git<br/>
 cd E-Commerce_FAQ_Bot
 
 ### Step 2 — Create and activate a virtual environment
-conda create -n EcommerceBot python=3.11
+conda create -n EcommerceBot python=3.11<br/>
 conda activate EcommerceBot
 
 ### Step 3 — Install dependencies
 pip install -r requirements.txt
 
 ### Step 4 — Add your Groq API key
-Get a free key from https://console.groq.com
+Get a free key from https://console.groq.com<br/>
 Open `agent.ipynb` and `capstone_streamlit.py`, and replace `YOUR_GROQ_API_KEY`
 
 ### Step 5 — Run the notebook
-Open `agent.ipynb` in VS Code, select the EcommerceBot kernel,
-and run all cells from top to bottom using Shift+Enter.
+Open `agent.ipynb` in VS Code, select the EcommerceBot kernel, and run all cells from top to bottom using Shift+Enter.
 
 ### Step 6 — Launch the Streamlit UI
-Ensure the environment is activated:
+Ensure the environment is activated:<br/>
 streamlit run capstone_streamlit.py --server.fileWatcherType none
