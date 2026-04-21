@@ -16,7 +16,7 @@ live delivery date calculations.
 ## Setup Instructions
 
 ### Step 1 — Clone the repository
-git clone https://github.com/Baidehi25/E-Commerce_FAQ_Bot.git</b>
+git clone https://github.com/Baidehi25/E-Commerce_FAQ_Bot.git<br/>
 cd E-Commerce_FAQ_Bot
 
 ### Step 2 — Create and activate a virtual environment
