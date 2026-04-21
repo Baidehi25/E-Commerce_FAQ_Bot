@@ -1,5 +1,5 @@
 # ShopEasy E-Commerce FAQ Bot
-Capstone Project | Agentic AI Course 2026 | Dr. Kanthi Kiran Sirra
+Capstone Project | Agentic AI Course 2026
 
 ## Project Overview
 A 24/7 intelligent customer support bot for ShopEasy, an e-commerce platform.
